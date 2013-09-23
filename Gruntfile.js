@@ -15,4 +15,5 @@ module.exports = function (grunt) {
         ]
     };
     grunt.initConfig(gruntConfig);
+    grunt.registerTask('travis', 'jshint');
 };
